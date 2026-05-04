@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Top 50 Formulalar</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 style="font-family: 'Outfit', sans-serif;">Excel 50 ta eng muhim formula</h1>
+            <p>Har bir bosqichda 5 tadan formula o'rganiladi</p>
+            <div style="margin-top: 1.5rem;">
+                <a href="https://mega.nz/file/6lYzHaST#xyodklIxtB7R_332vK7dmOH0NihEJEyv8b9wZayje9c" target="_blank" class="download-btn">📥 Faylni yuklab olish</a>
+            </div>
+        </header>
+
+        <div id="tabContainer" class="tab-container"></div>
+
+        <!-- MAIN AREA -->
+        <div id="contentArea" class="content-area"></div>
+
+        <!-- OFFICE ACTIVATION SECTION -->
+        <div class="activation-section">
+            <h3>🎁 Office Aktivatsiyasi</h3>
+            <p>Microsoft Office'ni (Excel, Word...) faollashtirish uchun ushbu kodni nusxalang va PowerShell dasturiga yozing:</p>
+            <div class="copy-box">
+                <code id="activationCommand">irm https://get.activated.win | iex</code>
+                <button onclick="copyCommand()" id="copyBtn">Nusxa olish</button>
+            </div>
+        </div>
+
+        <footer style="text-align: center; margin-top: 4rem; padding: 2rem; color: var(--text-muted); font-size: 0.85rem; border-top: 1px solid rgba(0,0,0,0.05);">
+            &copy; 2026 Excel O'quv Kursi - Har bir bosqichdan 5 tadan formula o'rganing.
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
